@@ -17,11 +17,11 @@ extension NSDate {
     }
     public static func nextDateFromComponents(components: NSDateComponents) -> NSDate? {
         let calendar = NSCalendar.currentCalendar()
-        var comp = calendar.components(NSCalendarUnit.CalendarUnitYear  |
-                                       NSCalendarUnit.CalendarUnitMonth |
-                                       NSCalendarUnit.CalendarUnitDay   |
-                                       NSCalendarUnit.CalendarUnitHour  |
-                                       NSCalendarUnit.CalendarUnitMinute, fromDate: NSDate())
+        let comp = calendar.components([NSCalendarUnit.Year,
+                                        NSCalendarUnit.Month,
+                                        NSCalendarUnit.Day,
+                                        NSCalendarUnit.Hour,
+                                        NSCalendarUnit.Minute], fromDate: NSDate())
         comp.hour   = components.hour
         comp.minute = components.minute
         comp.second = 0

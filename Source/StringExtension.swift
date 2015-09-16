@@ -9,18 +9,18 @@
 import Foundation
 
 extension String {
-    public func localize(#tableName: String, bundle: NSBundle) -> String {
+    public func localize(tableName tableName: String, bundle: NSBundle) -> String {
         return NSLocalizedString(self, tableName: tableName,
                                           bundle: bundle,
                                            value: self,
                                          comment: self)
     }
 
-    public func localize(#tableName: String) -> String {
+    public func localize(tableName tableName: String) -> String {
         return localize(tableName: tableName, bundle: NSBundle.mainBundle())
     }
 
-     public func localize(#bundle: NSBundle) -> String {
+     public func localize(bundle bundle: NSBundle) -> String {
         return localize(tableName: "Localizable", bundle: bundle)
     }
     
@@ -38,6 +38,6 @@ extension String {
     }
 
     public func contains(string: String) -> Bool {
-        return rangeOfString(string, options: .allZeros, range: nil, locale: NSLocale.autoupdatingCurrentLocale()) != nil
+        return rangeOfString(string, options: [], range: nil, locale: NSLocale.autoupdatingCurrentLocale()) != nil
     }
 }

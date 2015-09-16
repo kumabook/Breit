@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 extension UIView {
-    public func move(#x: CGFloat, y: CGFloat) {
+    public func move(x x: CGFloat, y: CGFloat) {
         frame.origin = CGPoint(x: frame.origin.x + x, y: frame.origin.y + y)
     }
 }
