@@ -8,6 +8,13 @@
 
 import Foundation
 
+
+extension Int64 {
+    public var date: NSDate {
+        return NSDate(timeIntervalSince1970: NSTimeInterval(Double(self)/1000))
+    }
+}
+
 extension NSDate {
     public var timestamp: Int64 {
         return Int64(timeIntervalSince1970 * 1000)
