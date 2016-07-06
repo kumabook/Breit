@@ -40,4 +40,8 @@ extension String {
     public func contains(string: String) -> Bool {
         return rangeOfString(string, options: [], range: nil, locale: NSLocale.autoupdatingCurrentLocale()) != nil
     }
+
+    public func replace(target: String, withString: String) -> String {
+        return self.stringByReplacingOccurrencesOfString(target, withString: withString, options: NSStringCompareOptions.LiteralSearch, range: nil)
+    }
 }
