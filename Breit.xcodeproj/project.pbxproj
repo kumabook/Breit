@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		674088921D3A34EF00300C67 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674088911D3A34EF00300C67 /* ArrayExtension.swift */; };
+		674088931D3A38C400300C67 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674088911D3A34EF00300C67 /* ArrayExtension.swift */; };
 		67428CC21B800A47002FFA1A /* Breit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67428CB61B800A47002FFA1A /* Breit.framework */; };
 		67428CD31B800B70002FFA1A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428CD21B800B70002FFA1A /* StringExtension.swift */; };
 		67428D081B800D92002FFA1A /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D071B800D92002FFA1A /* NSDateExtension.swift */; };
@@ -39,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		674088911D3A34EF00300C67 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = Source/ArrayExtension.swift; sourceTree = SOURCE_ROOT; };
 		67428CB61B800A47002FFA1A /* Breit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Breit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67428CBA1B800A47002FFA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
 		67428CC11B800A47002FFA1A /* BreitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +118,7 @@
 				67428CD21B800B70002FFA1A /* StringExtension.swift */,
 				67428D331B801787002FFA1A /* FloatExtension.swift */,
 				67428D071B800D92002FFA1A /* NSDateExtension.swift */,
+				674088911D3A34EF00300C67 /* ArrayExtension.swift */,
 				67428D3F1B801A3E002FFA1A /* Breit.h */,
 				67428D411B801A79002FFA1A /* Breit-Mac.h */,
 			);
@@ -306,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				674088921D3A34EF00300C67 /* ArrayExtension.swift in Sources */,
 				67428D081B800D92002FFA1A /* NSDateExtension.swift in Sources */,
 				67428CD31B800B70002FFA1A /* StringExtension.swift in Sources */,
 				67428D371B801792002FFA1A /* UIViewExtension.swift in Sources */,
@@ -325,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				674088931D3A38C400300C67 /* ArrayExtension.swift in Sources */,
 				67428D2D1B8013C8002FFA1A /* StringExtension.swift in Sources */,
 				67428D2E1B8013C8002FFA1A /* NSDateExtension.swift in Sources */,
 				67428D351B801787002FFA1A /* FloatExtension.swift in Sources */,
