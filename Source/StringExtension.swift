@@ -9,39 +9,39 @@
 import Foundation
 
 extension String {
-    public func localize(tableName tableName: String, bundle: NSBundle) -> String {
+    public func localize(_ tableName: String, bundle: Bundle) -> String {
         return NSLocalizedString(self, tableName: tableName,
                                           bundle: bundle,
                                            value: self,
                                          comment: self)
     }
 
-    public func localize(tableName tableName: String) -> String {
-        return localize(tableName: tableName, bundle: NSBundle.mainBundle())
+    public func localize(_ tableName: String) -> String {
+        return localize(tableName, bundle: Bundle.main)
     }
 
-     public func localize(bundle bundle: NSBundle) -> String {
-        return localize(tableName: "Localizable", bundle: bundle)
+    public func localize(_ bundle: Bundle) -> String {
+        return localize("Localizable", bundle: bundle)
     }
     
     public func localize() -> String {
-        return localize(tableName: "Localizable", bundle: NSBundle.mainBundle())
+        return localize("Localizable", bundle: Bundle.main)
     }
     
-    public func toURL() -> NSURL? {
-        if let url = NSURL(string: self) {
+    public func toURL() -> URL? {
+        if let url = URL(string: self) {
             return url
-        } else if let str = stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet()) {
-            return NSURL(string: str)
+        } else if let str = addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed) {
+            return URL(string: str)
         }
         return nil
     }
 
-    public func contains(string: String) -> Bool {
-        return rangeOfString(string, options: [], range: nil, locale: NSLocale.autoupdatingCurrentLocale()) != nil
+    public func contains(_ string: String) -> Bool {
+        return range(of: string, options: [], range: nil, locale: Locale.autoupdatingCurrent) != nil
     }
 
-    public func replace(target: String, withString: String) -> String {
-        return self.stringByReplacingOccurrencesOfString(target, withString: withString, options: NSStringCompareOptions.LiteralSearch, range: nil)
+    public func replace(_ target: String, withString: String) -> String {
+        return self.replacingOccurrences(of: target, with: withString, options: NSString.CompareOptions.literal, range: nil)
     }
 }

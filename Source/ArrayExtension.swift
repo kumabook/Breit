@@ -9,7 +9,7 @@
 import Foundation
 
 extension Array {
-    public func get(index: Int) -> Element? {
+    public func get(_ index: Int) -> Element? {
         if 0 <= index && index < self.count {
             return self[index]
         } else {

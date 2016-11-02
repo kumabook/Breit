@@ -10,6 +10,6 @@ import Foundation
 
 extension Float {
     public var prettyTime: String {
-        return String(format:"%02d:%02d", Int(floor(self / 60)), Int(floor(self % 60)))
+        return String(format:"%02d:%02d", Int(floor(self / 60)), Int(floor(self.truncatingRemainder(dividingBy: 60))))
     }
 }
