@@ -21,6 +21,17 @@
 		67428D3C1B801841002FFA1A /* BreitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D3B1B801841002FFA1A /* BreitTests.swift */; };
 		67428D401B801A3E002FFA1A /* Breit.h in Headers */ = {isa = PBXBuildFile; fileRef = 67428D3F1B801A3E002FFA1A /* Breit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67428D421B801A97002FFA1A /* Breit-Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 67428D411B801A79002FFA1A /* Breit-Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67E5EA0D1DCAAF8D001CF873 /* Breit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5EA041DCAAF8C001CF873 /* Breit.framework */; };
+		67E5EA141DCAAF8D001CF873 /* Breit-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E5EA061DCAAF8D001CF873 /* Breit-tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67E5EA251DCAB03F001CF873 /* Breit-watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E5EA231DCAB03F001CF873 /* Breit-watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67E5EA291DCAB1CC001CF873 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428CD21B800B70002FFA1A /* StringExtension.swift */; };
+		67E5EA2A1DCAB1CC001CF873 /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D331B801787002FFA1A /* FloatExtension.swift */; };
+		67E5EA2B1DCAB1CC001CF873 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D071B800D92002FFA1A /* NSDateExtension.swift */; };
+		67E5EA2C1DCAB1CC001CF873 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674088911D3A34EF00300C67 /* ArrayExtension.swift */; };
+		67E5EA2D1DCAB1D1001CF873 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428CD21B800B70002FFA1A /* StringExtension.swift */; };
+		67E5EA2E1DCAB1D1001CF873 /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D331B801787002FFA1A /* FloatExtension.swift */; };
+		67E5EA2F1DCAB1D1001CF873 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D071B800D92002FFA1A /* NSDateExtension.swift */; };
+		67E5EA301DCAB1D1001CF873 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674088911D3A34EF00300C67 /* ArrayExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +49,34 @@
 			remoteGlobalIDString = 67428D111B801234002FFA1A;
 			remoteInfo = "Breit-Mac";
 		};
+		67E5EA0E1DCAAF8D001CF873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67428CAD1B800A47002FFA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67E5EA031DCAAF8C001CF873;
+			remoteInfo = "Breit-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		674088911D3A34EF00300C67 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = Source/ArrayExtension.swift; sourceTree = SOURCE_ROOT; };
 		67428CB61B800A47002FFA1A /* Breit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Breit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67428CBA1B800A47002FFA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
-		67428CC11B800A47002FFA1A /* BreitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67428CC11B800A47002FFA1A /* Breit-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breit-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67428CD21B800B70002FFA1A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Source/StringExtension.swift; sourceTree = SOURCE_ROOT; };
 		67428D071B800D92002FFA1A /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDateExtension.swift; path = Source/NSDateExtension.swift; sourceTree = SOURCE_ROOT; };
 		67428D121B801234002FFA1A /* Breit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Breit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		67428D1C1B801234002FFA1A /* Breit-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breit-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67428D1C1B801234002FFA1A /* Breit-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breit-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67428D331B801787002FFA1A /* FloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatExtension.swift; path = Source/FloatExtension.swift; sourceTree = SOURCE_ROOT; };
 		67428D361B801792002FFA1A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = Source/UIViewExtension.swift; sourceTree = SOURCE_ROOT; };
 		67428D3B1B801841002FFA1A /* BreitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BreitTests.swift; path = Spec/BreitTests.swift; sourceTree = SOURCE_ROOT; };
 		67428D3F1B801A3E002FFA1A /* Breit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Breit.h; path = Source/Breit.h; sourceTree = SOURCE_ROOT; };
 		67428D411B801A79002FFA1A /* Breit-Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Breit-Mac.h"; path = "Source/Breit-Mac.h"; sourceTree = SOURCE_ROOT; };
+		67E5EA041DCAAF8C001CF873 /* Breit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Breit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E5EA061DCAAF8D001CF873 /* Breit-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Breit-tvOS.h"; path = "Source/Breit-tvOS.h"; sourceTree = SOURCE_ROOT; };
+		67E5EA0C1DCAAF8D001CF873 /* Breit-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breit-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E5EA211DCAB03F001CF873 /* Breit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Breit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E5EA231DCAB03F001CF873 /* Breit-watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Breit-watchOS.h"; path = "Source/Breit-watchOS.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +110,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67E5EA001DCAAF8C001CF873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E5EA091DCAAF8D001CF873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E5EA0D1DCAAF8D001CF873 /* Breit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E5EA1D1DCAB03F001CF873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				67428CB81B800A47002FFA1A /* Source */,
+				67E5EA1B1DCAAFB6001CF873 /* Header */,
 				67428CC51B800A47002FFA1A /* Spec */,
 				67428CB71B800A47002FFA1A /* Products */,
 			);
@@ -103,9 +149,12 @@
 			isa = PBXGroup;
 			children = (
 				67428CB61B800A47002FFA1A /* Breit.framework */,
-				67428CC11B800A47002FFA1A /* BreitTests.xctest */,
+				67428CC11B800A47002FFA1A /* Breit-iOSTests.xctest */,
 				67428D121B801234002FFA1A /* Breit.framework */,
-				67428D1C1B801234002FFA1A /* Breit-MacTests.xctest */,
+				67428D1C1B801234002FFA1A /* Breit-macOSTests.xctest */,
+				67E5EA041DCAAF8C001CF873 /* Breit.framework */,
+				67E5EA0C1DCAAF8D001CF873 /* Breit-tvOSTests.xctest */,
+				67E5EA211DCAB03F001CF873 /* Breit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,8 +168,6 @@
 				67428D331B801787002FFA1A /* FloatExtension.swift */,
 				67428D071B800D92002FFA1A /* NSDateExtension.swift */,
 				674088911D3A34EF00300C67 /* ArrayExtension.swift */,
-				67428D3F1B801A3E002FFA1A /* Breit.h */,
-				67428D411B801A79002FFA1A /* Breit-Mac.h */,
 			);
 			name = Source;
 			path = Breit;
@@ -133,6 +180,18 @@
 			);
 			name = Spec;
 			path = BreitTests;
+			sourceTree = "<group>";
+		};
+		67E5EA1B1DCAAFB6001CF873 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				67428D3F1B801A3E002FFA1A /* Breit.h */,
+				67428D411B801A79002FFA1A /* Breit-Mac.h */,
+				67E5EA061DCAAF8D001CF873 /* Breit-tvOS.h */,
+				67E5EA231DCAB03F001CF873 /* Breit-watchOS.h */,
+			);
+			name = Header;
+			path = Breit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,12 +213,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67E5EA011DCAAF8C001CF873 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E5EA141DCAAF8D001CF873 /* Breit-tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E5EA1E1DCAB03F001CF873 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E5EA251DCAB03F001CF873 /* Breit-watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		67428CB51B800A47002FFA1A /* Breit */ = {
+		67428CB51B800A47002FFA1A /* Breit-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67428CCC1B800A47002FFA1A /* Build configuration list for PBXNativeTarget "Breit" */;
+			buildConfigurationList = 67428CCC1B800A47002FFA1A /* Build configuration list for PBXNativeTarget "Breit-iOS" */;
 			buildPhases = (
 				67428CB11B800A47002FFA1A /* Sources */,
 				67428CB21B800A47002FFA1A /* Frameworks */,
@@ -170,14 +245,14 @@
 			);
 			dependencies = (
 			);
-			name = Breit;
+			name = "Breit-iOS";
 			productName = Breit;
 			productReference = 67428CB61B800A47002FFA1A /* Breit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		67428CC01B800A47002FFA1A /* BreitTests */ = {
+		67428CC01B800A47002FFA1A /* Breit-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67428CCF1B800A47002FFA1A /* Build configuration list for PBXNativeTarget "BreitTests" */;
+			buildConfigurationList = 67428CCF1B800A47002FFA1A /* Build configuration list for PBXNativeTarget "Breit-iOSTests" */;
 			buildPhases = (
 				67428CBD1B800A47002FFA1A /* Sources */,
 				67428CBE1B800A47002FFA1A /* Frameworks */,
@@ -188,14 +263,14 @@
 			dependencies = (
 				67428CC41B800A47002FFA1A /* PBXTargetDependency */,
 			);
-			name = BreitTests;
+			name = "Breit-iOSTests";
 			productName = BreitTests;
-			productReference = 67428CC11B800A47002FFA1A /* BreitTests.xctest */;
+			productReference = 67428CC11B800A47002FFA1A /* Breit-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		67428D111B801234002FFA1A /* Breit-Mac */ = {
+		67428D111B801234002FFA1A /* Breit-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67428D291B801234002FFA1A /* Build configuration list for PBXNativeTarget "Breit-Mac" */;
+			buildConfigurationList = 67428D291B801234002FFA1A /* Build configuration list for PBXNativeTarget "Breit-macOS" */;
 			buildPhases = (
 				67428D0D1B801234002FFA1A /* Sources */,
 				67428D0E1B801234002FFA1A /* Frameworks */,
@@ -206,14 +281,14 @@
 			);
 			dependencies = (
 			);
-			name = "Breit-Mac";
+			name = "Breit-macOS";
 			productName = "Breit-Mac";
 			productReference = 67428D121B801234002FFA1A /* Breit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		67428D1B1B801234002FFA1A /* Breit-MacTests */ = {
+		67428D1B1B801234002FFA1A /* Breit-macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67428D2A1B801234002FFA1A /* Build configuration list for PBXNativeTarget "Breit-MacTests" */;
+			buildConfigurationList = 67428D2A1B801234002FFA1A /* Build configuration list for PBXNativeTarget "Breit-macOSTests" */;
 			buildPhases = (
 				67428D181B801234002FFA1A /* Sources */,
 				67428D191B801234002FFA1A /* Frameworks */,
@@ -224,10 +299,64 @@
 			dependencies = (
 				67428D1F1B801234002FFA1A /* PBXTargetDependency */,
 			);
-			name = "Breit-MacTests";
+			name = "Breit-macOSTests";
 			productName = "Breit-MacTests";
-			productReference = 67428D1C1B801234002FFA1A /* Breit-MacTests.xctest */;
+			productReference = 67428D1C1B801234002FFA1A /* Breit-macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67E5EA031DCAAF8C001CF873 /* Breit-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E5EA151DCAAF8D001CF873 /* Build configuration list for PBXNativeTarget "Breit-tvOS" */;
+			buildPhases = (
+				67E5E9FF1DCAAF8C001CF873 /* Sources */,
+				67E5EA001DCAAF8C001CF873 /* Frameworks */,
+				67E5EA011DCAAF8C001CF873 /* Headers */,
+				67E5EA021DCAAF8C001CF873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Breit-tvOS";
+			productName = "Breit-tvOS";
+			productReference = 67E5EA041DCAAF8C001CF873 /* Breit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		67E5EA0B1DCAAF8D001CF873 /* Breit-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E5EA181DCAAF8D001CF873 /* Build configuration list for PBXNativeTarget "Breit-tvOSTests" */;
+			buildPhases = (
+				67E5EA081DCAAF8D001CF873 /* Sources */,
+				67E5EA091DCAAF8D001CF873 /* Frameworks */,
+				67E5EA0A1DCAAF8D001CF873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67E5EA0F1DCAAF8D001CF873 /* PBXTargetDependency */,
+			);
+			name = "Breit-tvOSTests";
+			productName = "Breit-tvOSTests";
+			productReference = 67E5EA0C1DCAAF8D001CF873 /* Breit-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67E5EA201DCAB03F001CF873 /* Breit-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E5EA261DCAB03F001CF873 /* Build configuration list for PBXNativeTarget "Breit-watchOS" */;
+			buildPhases = (
+				67E5EA1C1DCAB03F001CF873 /* Sources */,
+				67E5EA1D1DCAB03F001CF873 /* Frameworks */,
+				67E5EA1E1DCAB03F001CF873 /* Headers */,
+				67E5EA1F1DCAB03F001CF873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Breit-watchOS";
+			productName = "Breit-watchOS";
+			productReference = 67E5EA211DCAB03F001CF873 /* Breit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -236,7 +365,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = kumabook;
 				TargetAttributes = {
@@ -250,9 +379,22 @@
 					};
 					67428D111B801234002FFA1A = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0810;
 					};
 					67428D1B1B801234002FFA1A = {
 						CreatedOnToolsVersion = 6.4;
+					};
+					67E5EA031DCAAF8C001CF873 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					67E5EA0B1DCAAF8D001CF873 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					67E5EA201DCAB03F001CF873 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -268,10 +410,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67428CB51B800A47002FFA1A /* Breit */,
-				67428CC01B800A47002FFA1A /* BreitTests */,
-				67428D111B801234002FFA1A /* Breit-Mac */,
-				67428D1B1B801234002FFA1A /* Breit-MacTests */,
+				67428CB51B800A47002FFA1A /* Breit-iOS */,
+				67428CC01B800A47002FFA1A /* Breit-iOSTests */,
+				67428D111B801234002FFA1A /* Breit-macOS */,
+				67428D1B1B801234002FFA1A /* Breit-macOSTests */,
+				67E5EA031DCAAF8C001CF873 /* Breit-tvOS */,
+				67E5EA0B1DCAAF8D001CF873 /* Breit-tvOSTests */,
+				67E5EA201DCAB03F001CF873 /* Breit-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -299,6 +444,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		67428D1A1B801234002FFA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E5EA021DCAAF8C001CF873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E5EA0A1DCAAF8D001CF873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E5EA1F1DCAB03F001CF873 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,18 +512,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67E5E9FF1DCAAF8C001CF873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E5EA291DCAB1CC001CF873 /* StringExtension.swift in Sources */,
+				67E5EA2A1DCAB1CC001CF873 /* FloatExtension.swift in Sources */,
+				67E5EA2B1DCAB1CC001CF873 /* NSDateExtension.swift in Sources */,
+				67E5EA2C1DCAB1CC001CF873 /* ArrayExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E5EA081DCAAF8D001CF873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E5EA1C1DCAB03F001CF873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E5EA2D1DCAB1D1001CF873 /* StringExtension.swift in Sources */,
+				67E5EA2E1DCAB1D1001CF873 /* FloatExtension.swift in Sources */,
+				67E5EA2F1DCAB1D1001CF873 /* NSDateExtension.swift in Sources */,
+				67E5EA301DCAB1D1001CF873 /* ArrayExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		67428CC41B800A47002FFA1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67428CB51B800A47002FFA1A /* Breit */;
+			target = 67428CB51B800A47002FFA1A /* Breit-iOS */;
 			targetProxy = 67428CC31B800A47002FFA1A /* PBXContainerItemProxy */;
 		};
 		67428D1F1B801234002FFA1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67428D111B801234002FFA1A /* Breit-Mac */;
+			target = 67428D111B801234002FFA1A /* Breit-macOS */;
 			targetProxy = 67428D1E1B801234002FFA1A /* PBXContainerItemProxy */;
+		};
+		67E5EA0F1DCAAF8D001CF873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67E5EA031DCAAF8C001CF873 /* Breit-tvOS */;
+			targetProxy = 67E5EA0E1DCAAF8D001CF873 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -546,6 +746,7 @@
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -566,6 +767,7 @@
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -602,6 +804,144 @@
 			};
 			name = Release;
 		};
+		67E5EA161DCAAF8D001CF873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kumabook.Breit-tvOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		67E5EA171DCAAF8D001CF873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kumabook.Breit-tvOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		67E5EA191DCAAF8D001CF873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = Spec/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kumabook.Breit-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		67E5EA1A1DCAAF8D001CF873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = Spec/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kumabook.Breit-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		67E5EA271DCAB03F001CF873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Spec/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kumabook.Breit-watchOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		67E5EA281DCAB03F001CF873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Spec/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kumabook.Breit-watchOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -614,7 +954,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67428CCC1B800A47002FFA1A /* Build configuration list for PBXNativeTarget "Breit" */ = {
+		67428CCC1B800A47002FFA1A /* Build configuration list for PBXNativeTarget "Breit-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67428CCD1B800A47002FFA1A /* Debug */,
@@ -623,7 +963,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67428CCF1B800A47002FFA1A /* Build configuration list for PBXNativeTarget "BreitTests" */ = {
+		67428CCF1B800A47002FFA1A /* Build configuration list for PBXNativeTarget "Breit-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67428CD01B800A47002FFA1A /* Debug */,
@@ -632,7 +972,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67428D291B801234002FFA1A /* Build configuration list for PBXNativeTarget "Breit-Mac" */ = {
+		67428D291B801234002FFA1A /* Build configuration list for PBXNativeTarget "Breit-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67428D251B801234002FFA1A /* Debug */,
@@ -641,7 +981,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67428D2A1B801234002FFA1A /* Build configuration list for PBXNativeTarget "Breit-MacTests" */ = {
+		67428D2A1B801234002FFA1A /* Build configuration list for PBXNativeTarget "Breit-macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67428D271B801234002FFA1A /* Debug */,
@@ -649,6 +989,30 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		67E5EA151DCAAF8D001CF873 /* Build configuration list for PBXNativeTarget "Breit-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E5EA161DCAAF8D001CF873 /* Debug */,
+				67E5EA171DCAAF8D001CF873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67E5EA181DCAAF8D001CF873 /* Build configuration list for PBXNativeTarget "Breit-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E5EA191DCAAF8D001CF873 /* Debug */,
+				67E5EA1A1DCAAF8D001CF873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67E5EA261DCAB03F001CF873 /* Build configuration list for PBXNativeTarget "Breit-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E5EA271DCAB03F001CF873 /* Debug */,
+				67E5EA281DCAB03F001CF873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

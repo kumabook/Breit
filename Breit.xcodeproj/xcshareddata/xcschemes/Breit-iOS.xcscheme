@@ -16,21 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "67428CB51B800A47002FFA1A"
                BuildableName = "Breit.framework"
-               BlueprintName = "Breit"
-               ReferencedContainer = "container:Breit.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "67428CC01B800A47002FFA1A"
-               BuildableName = "BreitTests.xctest"
-               BlueprintName = "BreitTests"
+               BlueprintName = "Breit-iOS"
                ReferencedContainer = "container:Breit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "67428CC01B800A47002FFA1A"
-               BuildableName = "BreitTests.xctest"
-               BlueprintName = "BreitTests"
+               BuildableName = "Breit-iOSTests.xctest"
+               BlueprintName = "Breit-iOSTests"
                ReferencedContainer = "container:Breit.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -58,7 +44,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "67428CB51B800A47002FFA1A"
             BuildableName = "Breit.framework"
-            BlueprintName = "Breit"
+            BlueprintName = "Breit-iOS"
             ReferencedContainer = "container:Breit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -80,7 +66,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "67428CB51B800A47002FFA1A"
             BuildableName = "Breit.framework"
-            BlueprintName = "Breit"
+            BlueprintName = "Breit-iOS"
             ReferencedContainer = "container:Breit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -98,7 +84,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "67428CB51B800A47002FFA1A"
             BuildableName = "Breit.framework"
-            BlueprintName = "Breit"
+            BlueprintName = "Breit-iOS"
             ReferencedContainer = "container:Breit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
