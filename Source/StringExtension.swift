@@ -37,10 +37,6 @@ extension String {
         return nil
     }
 
-    public func contains(_ string: String) -> Bool {
-        return range(of: string, options: [], range: nil, locale: Locale.autoupdatingCurrent) != nil
-    }
-
     public func replace(_ target: String, withString: String) -> String {
         return self.replacingOccurrences(of: target, with: withString, options: NSString.CompareOptions.literal, range: nil)
     }
