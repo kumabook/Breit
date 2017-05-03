@@ -48,4 +48,16 @@ extension String {
     public var dateFromISO8601: Date? {
         return Date.iso8601Formatter.date(from: self)
     }
+
+    public func matchingStrings(regex: String) -> [[String]] {
+        guard let regex = try? NSRegularExpression(pattern: regex, options: []) else { return [] }
+        let string  = self as NSString
+        let results = regex.matches(in: self, options: [], range: NSMakeRange(0, string.length))
+        return results.map { result in
+            (0..<result.numberOfRanges).map {
+                result.rangeAt($0).location != NSNotFound ?
+                    string.substring(with: result.rangeAt($0)) : ""
+            }
+        }
+    }
 }
