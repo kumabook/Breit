@@ -1,5 +1,5 @@
 //
-//  NSDateExtension.swift
+//  DateExtension.swift
 //  Breit
 //
 //  Created by Hiroki Kumamoto on 8/16/15.
@@ -65,5 +65,18 @@ extension Date {
             return "\(day)" + " day ago"
         }
         return "\(day)" + " days ago"
+    }
+
+    static let iso8601Formatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.calendar = Calendar(identifier: .iso8601)
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        formatter.timeZone = TimeZone(secondsFromGMT: 0)
+        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSXXXXX"
+        return formatter
+    }()
+
+    var iso8601: String {
+        return Date.iso8601Formatter.string(from: self)
     }
 }
