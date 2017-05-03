@@ -44,4 +44,8 @@ extension String {
     public func replace(_ target: String, withString: String) -> String {
         return self.replacingOccurrences(of: target, with: withString, options: NSString.CompareOptions.literal, range: nil)
     }
+
+    public var dateFromISO8601: Date? {
+        return Date.iso8601Formatter.date(from: self)
+    }
 }
