@@ -11,10 +11,10 @@
 		674088931D3A38C400300C67 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674088911D3A34EF00300C67 /* ArrayExtension.swift */; };
 		67428CC21B800A47002FFA1A /* Breit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67428CB61B800A47002FFA1A /* Breit.framework */; };
 		67428CD31B800B70002FFA1A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428CD21B800B70002FFA1A /* StringExtension.swift */; };
-		67428D081B800D92002FFA1A /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D071B800D92002FFA1A /* NSDateExtension.swift */; };
+		67428D081B800D92002FFA1A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D071B800D92002FFA1A /* DateExtension.swift */; };
 		67428D1D1B801234002FFA1A /* Breit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67428D121B801234002FFA1A /* Breit.framework */; };
 		67428D2D1B8013C8002FFA1A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428CD21B800B70002FFA1A /* StringExtension.swift */; };
-		67428D2E1B8013C8002FFA1A /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D071B800D92002FFA1A /* NSDateExtension.swift */; };
+		67428D2E1B8013C8002FFA1A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D071B800D92002FFA1A /* DateExtension.swift */; };
 		67428D341B801787002FFA1A /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D331B801787002FFA1A /* FloatExtension.swift */; };
 		67428D351B801787002FFA1A /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D331B801787002FFA1A /* FloatExtension.swift */; };
 		67428D371B801792002FFA1A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D361B801792002FFA1A /* UIViewExtension.swift */; };
@@ -26,11 +26,11 @@
 		67E5EA251DCAB03F001CF873 /* Breit-watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E5EA231DCAB03F001CF873 /* Breit-watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67E5EA291DCAB1CC001CF873 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428CD21B800B70002FFA1A /* StringExtension.swift */; };
 		67E5EA2A1DCAB1CC001CF873 /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D331B801787002FFA1A /* FloatExtension.swift */; };
-		67E5EA2B1DCAB1CC001CF873 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D071B800D92002FFA1A /* NSDateExtension.swift */; };
+		67E5EA2B1DCAB1CC001CF873 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D071B800D92002FFA1A /* DateExtension.swift */; };
 		67E5EA2C1DCAB1CC001CF873 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674088911D3A34EF00300C67 /* ArrayExtension.swift */; };
 		67E5EA2D1DCAB1D1001CF873 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428CD21B800B70002FFA1A /* StringExtension.swift */; };
 		67E5EA2E1DCAB1D1001CF873 /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D331B801787002FFA1A /* FloatExtension.swift */; };
-		67E5EA2F1DCAB1D1001CF873 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D071B800D92002FFA1A /* NSDateExtension.swift */; };
+		67E5EA2F1DCAB1D1001CF873 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67428D071B800D92002FFA1A /* DateExtension.swift */; };
 		67E5EA301DCAB1D1001CF873 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674088911D3A34EF00300C67 /* ArrayExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,7 +64,7 @@
 		67428CBA1B800A47002FFA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
 		67428CC11B800A47002FFA1A /* Breit-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breit-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67428CD21B800B70002FFA1A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Source/StringExtension.swift; sourceTree = SOURCE_ROOT; };
-		67428D071B800D92002FFA1A /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDateExtension.swift; path = Source/NSDateExtension.swift; sourceTree = SOURCE_ROOT; };
+		67428D071B800D92002FFA1A /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = Source/DateExtension.swift; sourceTree = SOURCE_ROOT; };
 		67428D121B801234002FFA1A /* Breit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Breit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67428D1C1B801234002FFA1A /* Breit-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breit-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67428D331B801787002FFA1A /* FloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatExtension.swift; path = Source/FloatExtension.swift; sourceTree = SOURCE_ROOT; };
@@ -166,7 +166,7 @@
 				67428D361B801792002FFA1A /* UIViewExtension.swift */,
 				67428CD21B800B70002FFA1A /* StringExtension.swift */,
 				67428D331B801787002FFA1A /* FloatExtension.swift */,
-				67428D071B800D92002FFA1A /* NSDateExtension.swift */,
+				67428D071B800D92002FFA1A /* DateExtension.swift */,
 				674088911D3A34EF00300C67 /* ArrayExtension.swift */,
 			);
 			name = Source;
@@ -479,7 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				674088921D3A34EF00300C67 /* ArrayExtension.swift in Sources */,
-				67428D081B800D92002FFA1A /* NSDateExtension.swift in Sources */,
+				67428D081B800D92002FFA1A /* DateExtension.swift in Sources */,
 				67428CD31B800B70002FFA1A /* StringExtension.swift in Sources */,
 				67428D371B801792002FFA1A /* UIViewExtension.swift in Sources */,
 				67428D341B801787002FFA1A /* FloatExtension.swift in Sources */,
@@ -500,7 +500,7 @@
 			files = (
 				674088931D3A38C400300C67 /* ArrayExtension.swift in Sources */,
 				67428D2D1B8013C8002FFA1A /* StringExtension.swift in Sources */,
-				67428D2E1B8013C8002FFA1A /* NSDateExtension.swift in Sources */,
+				67428D2E1B8013C8002FFA1A /* DateExtension.swift in Sources */,
 				67428D351B801787002FFA1A /* FloatExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,7 +518,7 @@
 			files = (
 				67E5EA291DCAB1CC001CF873 /* StringExtension.swift in Sources */,
 				67E5EA2A1DCAB1CC001CF873 /* FloatExtension.swift in Sources */,
-				67E5EA2B1DCAB1CC001CF873 /* NSDateExtension.swift in Sources */,
+				67E5EA2B1DCAB1CC001CF873 /* DateExtension.swift in Sources */,
 				67E5EA2C1DCAB1CC001CF873 /* ArrayExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,7 +536,7 @@
 			files = (
 				67E5EA2D1DCAB1D1001CF873 /* StringExtension.swift in Sources */,
 				67E5EA2E1DCAB1D1001CF873 /* FloatExtension.swift in Sources */,
-				67E5EA2F1DCAB1D1001CF873 /* NSDateExtension.swift in Sources */,
+				67E5EA2F1DCAB1D1001CF873 /* DateExtension.swift in Sources */,
 				67E5EA301DCAB1D1001CF873 /* ArrayExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -997,6 +997,7 @@
 				67E5EA171DCAAF8D001CF873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67E5EA181DCAAF8D001CF873 /* Build configuration list for PBXNativeTarget "Breit-tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1005,6 +1006,7 @@
 				67E5EA1A1DCAAF8D001CF873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67E5EA261DCAB03F001CF873 /* Build configuration list for PBXNativeTarget "Breit-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -1013,6 +1015,7 @@
 				67E5EA281DCAB03F001CF873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
