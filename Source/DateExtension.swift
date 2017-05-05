@@ -8,6 +8,12 @@
 
 import Foundation
 
+public enum TimeUnit: String {
+    case second = "second"
+    case minute = "minute"
+    case hour   = "hour"
+    case day    = "day"
+}
 
 extension Int64 {
     public var date: Date {
@@ -43,28 +49,22 @@ extension Date {
         return nil
     }
 
-    public var passedTime: String {
+    public var elapsedTime: (value: Int, unit: TimeUnit) {
         let now           = Date()
-        let passed        = now.timeIntervalSince(self)
-        let minute: Int   = Int(passed) / 60
-        if minute <= 1 {
-            return "1 minute ago"
+        let second        = Int(now.timeIntervalSince(self))
+        let minute: Int   = second / 60
+        if minute < 1 {
+            return (value: Int(second), unit: .second)
         }
         if minute < 60 {
-            return "\(minute)" + " minutes ago"
+            return (value: minute, unit: .minute)
         }
         let hour = minute / 60;
-        if hour <= 1 {
-            return "\(hour)" + " hour ago"
-        }
         if (hour < 24) {
-            return "\(hour)" + " hours ago"
+            return (value: hour, unit: .hour)
         }
         let day = hour / 24;
-        if day <= 1 {
-            return "\(day)" + " day ago"
-        }
-        return "\(day)" + " days ago"
+        return (value: day, unit: .day)
     }
 
     static let iso8601Formatter: DateFormatter = {
